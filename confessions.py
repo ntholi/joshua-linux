@@ -3,7 +3,7 @@ import time
 import random
 
 print("Running Confessions...");
-lines = [line.rstrip('\n') for line in open('confessions') if line.strip()]
+lines = [line.rstrip('\n') for line in open('confessions-power') if line.strip()]
 print("Successfully loaded %d confessions" %len(lines));
 icon = "/home/itadmin/custom-scripts/confessions/icon.jpg"
 pynotify.init("Confessions")
